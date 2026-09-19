@@ -5,7 +5,7 @@ module.exports = {
 
     "game": {
         "applicationID": process.env.APPLICATION_ID,
-        "name": "VALORANT",
+        "name": "Valorant",
         "details": "Unrated (Bind) 4-4",
         "state": "3/5 Playing",
         "timestamps": {
