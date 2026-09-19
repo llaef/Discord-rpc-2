@@ -26,6 +26,7 @@ client.on("ready", async () => {
                     .setName(gameConfig.name)
                     .setDetails(gameConfig.details)
                     .setState(gameConfig.state);
+                
                 // استخدام الوقت الثابت لتجنب إعادة التعيين
                 rpc.setStartTimestamp(startTime);
 
