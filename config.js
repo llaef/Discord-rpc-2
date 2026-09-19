@@ -7,7 +7,6 @@ module.exports = {
         "applicationID": process.env.APPLICATION_ID,
         "name": "Minecraft",
         "details": "Playing Bedrock Edition",
-        "state": "Survival Mode - Multiplayer",
-        "startTimestamp": Date.now(),
-        "endTimestamp": ""
-    },
+        "state": "Survival Mode - Multiplayer"
+    }
+};
