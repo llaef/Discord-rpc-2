@@ -26,26 +26,6 @@ client.on("ready", async () => {
                     .setName(gameConfig.name)
                     .setDetails(gameConfig.details)
                     .setState(gameConfig.state);
-
-                if (gameConfig.largeImageKey) {
-                    if (gameConfig.largeImageKey.startsWith("http")) {
-                        try {
-                            const ai = await RichPresence.getExternal(client, gameConfig.applicationID, gameConfig.largeImageKey);
-                            if (ai && ai[0]) {
-                                rpc.setAssetsLargeImage(ai[0].external_asset_path);
-                            }
-                        } catch (err) {
-                            console.error("Failed to load external asset:", err);
-                        }
-                    } else {
-                        rpc.setAssetsLargeImage(gameConfig.largeImageKey);
-                    }
-
-                    if (gameConfig.largeImageText) {
-                        rpc.setAssetsLargeText(gameConfig.largeImageText);
-                    }
-                }
-
                 // استخدام الوقت الثابت لتجنب إعادة التعيين
                 rpc.setStartTimestamp(startTime);
 
