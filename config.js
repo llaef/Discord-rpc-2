@@ -5,6 +5,6 @@ module.exports = {
 
     "game": {
         "applicationID": process.env.APPLICATION_ID,
-        "name": "Red Dead Redemption 2",
+        "name":"Red Dead Redemption 2",
     }
 };
