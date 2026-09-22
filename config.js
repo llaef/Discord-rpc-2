@@ -5,6 +5,6 @@ module.exports = {
 
     "game": {
         "applicationID": process.env.APPLICATION_ID,
-        "name":"Silent Hill 𝒇",
+        "name":"Silent Hill f",
     }
 };
