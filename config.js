@@ -5,6 +5,6 @@ module.exports = {
 
     "game": {
         "applicationID": process.env.APPLICATION_ID,
-        "name":"Ghost Of Tsushima",
+        "name":"Valorant",
     }
 };
